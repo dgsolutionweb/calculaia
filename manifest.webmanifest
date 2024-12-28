@@ -1,0 +1,1 @@
+{"name":"CalculaIA - DGSolutionWEB","short_name":"CalculaIA","start_url":"/","display":"standalone","background_color":"#ffffff","lang":"en","scope":"/calculaia/","description":"Calculadora inteligente com IA","theme_color":"#007bff","icons":[{"src":"calculator.svg","sizes":"512x512","type":"image/svg+xml","purpose":"any maskable"}],"orientation":"portrait"}
