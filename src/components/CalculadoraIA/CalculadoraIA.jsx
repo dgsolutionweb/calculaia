@@ -5,6 +5,7 @@ import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'r
 import { FiSettings, FiShare2 } from 'react-icons/fi';
 import styled from '@emotion/styled';
 import Logo from '../Logo/Logo';
+import InstallPWA from '../InstallPWA/InstallPWA';
 import './CalculadoraIA.css';
 
 // Inicializa a API do Google Generative AI
@@ -500,6 +501,7 @@ const CalculadoraIA = () => {
 
     return (
         <div className="calculadora-container" data-tema={tema}>
+            <InstallPWA />
             <div className="cabecalho">
                 <Logo width={180} height={50} />
                 <div className="acoes">
